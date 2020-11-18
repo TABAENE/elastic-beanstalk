@@ -25,7 +25,10 @@ SECRET_KEY = 'hpum7td7xvoz-q_z@_fntoehn0(ez2(!djrt!3*z6954i=m6l+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["3.136.27.225", "demo-dev2.us-east-2.elasticbeanstalk.com"]
+
+# ALLOWED_HOSTS = ["3.136.27.225", "demo-dev2.us-east-2.elasticbeanstalk.com"]
+
+ALLOWED_HOSTS = ["3.136.27.225", "demo-dev2-clone.us-east-2.elasticbeanstalk.com"]
 
 
 # Application definition
